@@ -7,7 +7,7 @@ class DNSEDataReader:
     Tiện ích đọc dữ liệu chứng khoán trực tiếp từ thư mục dữ liệu cục bộ của Ami X (DNSE).
     Hỗ trợ đọc dữ liệu EOD (End of Day) và Intraday Tick bằng cách giải mã định dạng binary MetaStock.
     """
-    def __init__(self, data_dir=r"D:\AmiXDNSE"):
+    def __init__(self, data_dir=r"D:\AmiXDNSE"): # thay đổi đường dẫn hợp lí
         self.data_dir = data_dir
 
     def _fmsbin2ieee(self, data: bytes) -> float:
