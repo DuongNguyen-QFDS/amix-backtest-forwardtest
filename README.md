@@ -18,3 +18,5 @@ ProjectApply/
 ├── data/                    # Thư mục lưu dữ liệu thô (*_raw.csv), biểu đồ và log lệnh
 ├── pyproject.toml           # Quản lý thư viện dự án (uv)
 └── README.md
+
+Lưu ý: Việc đăng kí sử dụng AmiX của DNSE là bắt buộc để khởi chạy dự án, đồng thời phải nhập Smart OTP và đăng kí lightfast API của AmiX
